@@ -1,6 +1,7 @@
 # Video-Keyframe-Extractor-Using-RGB-Features-in-Matlab
 
 In this script, I use a sample video called planes.mp4 which has 4 scene changes. If you watch the video you can see that there are scene changes at approximately:
+
 1)00:03:xx
 2)00:05:xx
 3)00:10:xx
