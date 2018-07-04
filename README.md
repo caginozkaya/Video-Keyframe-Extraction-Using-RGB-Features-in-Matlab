@@ -3,8 +3,11 @@
 In this script, I use a sample video called planes.mp4 which has 4 scene changes. If you watch the video you can see that there are scene changes at approximately:
 
 1)00:03:xx
+
 2)00:05:xx
+
 3)00:10:xx
+
 4)00:14:xx
 
 -It takes the i th and i+1 th frames' RGB features and calculates the histogam difference of those features. 
