@@ -22,7 +22,7 @@ In this script, I use a sample video called planes.mp4 which has 4 scene changes
 In the figure the maximum points of the graph are the maximum changes of RGB features which extracted from the frames. 
 
 
-<a href="https://ibb.co/hEpyNJ"><img src="https://preview.ibb.co/dFc7Gd/extract.png" alt="extract" border="0"></a><br />
+<a href="https://ibb.co/kZLYpy"><img src="https://preview.ibb.co/nzD8NJ/extract.png" alt="extract" border="0"></a>
 
 -As you can see in the figure, you can take the maximum points of the graph as keyframes. It finds all 4 keyframes successfully in this example.
 
