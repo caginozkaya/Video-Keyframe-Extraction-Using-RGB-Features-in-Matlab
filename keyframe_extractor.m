@@ -31,7 +31,7 @@ for i = 1 : frame_len
     
     frames(i)= sum(abs(rHist-r1Hist) + abs(gHist-g1Hist) + abs(bHist-b1Hist))/3;
     
-    disp(i);
+    
     
     clc;
     X = ['Process: ', num2str(int64((i/frame_len)*100)), '%'];
