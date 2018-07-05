@@ -3,17 +3,15 @@
 video = VideoReader('planes.mp4');
 
 frame_size = size(read(video, 1));
-x=frame_size(1);
-y=frame_size(2);
-tot_size = x*y;
+
 nBins = 256;
-frame_len = ceil(video.FrameRate*video.Duration)-40;
+frame_len = ceil(video.FrameRate*video.Duration)-10;
 frames(frame_len) = 0;
 
 framesX(frame_len) = 0;
 
 for i = 1 : frame_len
-    framesX(i) = i;
+    framesX(i) = i/video.FrameRate;
 end
 
 for i = 1 : frame_len 
@@ -34,12 +32,15 @@ for i = 1 : frame_len
     frames(i)= sum(abs(rHist-r1Hist) + abs(gHist-g1Hist) + abs(bHist-b1Hist))/3;
     
     disp(i);
-
+    
+    clc;
+    X = ['Process: ', num2str(int64((i/frame_len)*100)), '%'];
+    disp(X)
 end
 
 plot(framesX,frames)
 plot(framesX,frames)
-xlabel('Frame No')
+xlabel('Duration(s)')
 ylabel('RGB Rate of Change')
 
 
