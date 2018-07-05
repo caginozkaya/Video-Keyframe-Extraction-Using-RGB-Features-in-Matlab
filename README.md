@@ -26,4 +26,4 @@ In the figure the maximum points of the graph are the maximum changes of RGB fea
 
 -As you can see in the figure, you can take the maximum points of the graph as keyframes. It finds all 4 keyframes successfully in this example.
 
--planes.mp4 is stored as 30 fps so you can get the duration of the maximum change by dividing the frame no of those maximum points by 30.
+-x-axis indicates the duration of the video, by taking the durations of the maximum points you can extract that frame at that duration as keyframe.
