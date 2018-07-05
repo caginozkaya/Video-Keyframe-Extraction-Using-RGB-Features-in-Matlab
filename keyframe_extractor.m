@@ -1,6 +1,15 @@
 
-%input video
-video = VideoReader('planes.mp4');
+%input video path
+vid = 'planes';
+
+%specify format
+format = '.mp4';
+mat = '.mat';
+path = strcat(vid,format);
+dest = strcat(vid,mat);
+
+%read video
+video = VideoReader(path);
 
 
 
@@ -37,6 +46,8 @@ for i = 1 : frame_len
     disp(X)
 end
 
+
+save(dest,'frames');
 
 plot(framesX,frames)
 xlabel('Duration(s)')
