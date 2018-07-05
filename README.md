@@ -27,3 +27,5 @@ In the figure the maximum points of the graph are the maximum changes of RGB fea
 -As you can see in the figure, you can take the maximum points of the graph as keyframes. It finds all 4 keyframes successfully in this example.
 
 -x-axis indicates the duration of the video, by taking the durations of the maximum points you can extract that frame at that duration as keyframe.
+
+-Automatically saves frames matrice as planes.mat in the current folder for later usage.
