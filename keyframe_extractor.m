@@ -5,7 +5,7 @@ video = VideoReader('planes.mp4');
 frame_size = size(read(video, 1));
 
 nBins = 256;
-frame_len = ceil(video.FrameRate*video.Duration)-10;
+frame_len = ceil(video.FrameRate*video.Duration)-video.FrameRate;
 frames(frame_len) = 0;
 
 framesX(frame_len) = 0;
@@ -38,7 +38,7 @@ for i = 1 : frame_len
     disp(X)
 end
 
-plot(framesX,frames)
+
 plot(framesX,frames)
 xlabel('Duration(s)')
 ylabel('RGB Rate of Change')
