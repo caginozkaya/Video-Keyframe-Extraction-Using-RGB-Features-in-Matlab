@@ -6,7 +6,7 @@ In this script, I use a sample video called planes.mp4 which has 4 scene changes
 
 <a href="https://ibb.co/czKZUy"><img src="https://preview.ibb.co/hOP19y/1.png" alt="1" border="0"></a>
 
-2)00:05:xx
+2)00:06:xx
 
 <a href="https://ibb.co/ko0SGd"><img src="https://preview.ibb.co/cxLipy/2.png" alt="2" border="0"></a>
 
